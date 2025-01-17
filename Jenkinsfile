@@ -3,7 +3,7 @@ ipipeline{
     stages{
         stage('checkout the code from github'){
             steps{
-                 git url: 'https://github.com/akshu20791/Banking-java-project/'
+                 git url: 'https://github.com/Reshma1095/Banking-Project/'
                  echo 'github url checkout'
             }
         }
